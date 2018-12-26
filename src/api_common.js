@@ -116,7 +116,7 @@ ecc.randomKey().then(privateKey => {
     // return Signature.sign(data, privateKey, encoding).toString()
     // return libfc.sign_k1(data, privateKey);
 
-    var sig = libfc.sign(hash.sha256(data), PrivateKey(privateKey).toBuffer());
+    var sig = libfc.sign_k1(hash.sha256(data), PrivateKey(privateKey).toBuffer());
     var newSig = Signature.fromBuffer(sig);
     return newSig.toString();
   },
