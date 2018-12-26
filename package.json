@@ -1,6 +1,6 @@
 {
   "name": "eosjs-ecc2",
-  "version": "1.0.0",
+  "version": "1.1.1",
   "description": "Modified Elliptic curve cryptography functions",
   "keywords": "ECC, Private Key, Public Key, Signature, AES, Encryption, Decryption",
   "main": "lib/index.js",
@@ -37,7 +37,7 @@
     "create-hmac": "^1.1.6",
     "ecurve": "^1.0.5",
     "randombytes": "^2.0.5",
-    "lib-fc": "^1.0.0"
+    "lib-fc": "^1.1.1"
   },
   "license": "MIT",
   "devDependencies": {
